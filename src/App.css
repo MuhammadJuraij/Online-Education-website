@@ -1,0 +1,64 @@
+:root{
+  /* --primary-color:rgb(51, 119, 178);; */
+  --primary-color:rgba(97, 9, 152, 0.558);;
+  --heading-color:#132742;
+}
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+  text-decoration: none;
+  color:unset
+}
+a:hover{
+  color: unset;
+}
+
+ul{
+  list-style: none;
+}
+
+Link{
+  text-decoration: none;
+  color:unset
+}
+Link:hover{
+  color: unset;
+}
+
+section{
+  padding: 50px 0px;
+}
+
+.section_title{
+font-weight: 700;
+color: var(--heading-color);
+}
+
+
+.container{
+  width:1140px;
+  padding: 0 15px;
+  margin: auto;
+}
+
+
+
+.register-btn{
+  background-color: var(--primary-color);
+  color: white;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 5px;
+  font-family: var(--font-name);
+  font-weight: 700;
+  font-size: 16px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.register-btn:hover {
+  background-color: #481b5c;
+  transform: scale(1.1); 
+}

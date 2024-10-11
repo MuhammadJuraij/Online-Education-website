@@ -1,0 +1,18 @@
+.mainn{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-cont{
+    text-align: center;
+}
+
+.main-cont h1{
+    margin: 20px;
+}
+
+.main-cont p{
+    font-size: 1.2rem;
+}

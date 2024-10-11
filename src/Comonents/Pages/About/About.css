@@ -1,0 +1,44 @@
+.heading{
+    font-size: 2rem;
+    margin: 50px;
+    color: var(--heading-color);
+    text-align: center;
+}
+
+.item-img{
+    width: 200px;
+}
+
+.item-img img{
+    width: 100%;
+}
+
+.team-wrapper{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 60px;
+}
+
+.names{
+    text-align: center;
+}
+
+.post{
+    text-align: center;
+    color: gray;
+}
+
+.para{
+    margin: 100px;   
+}
+
+.para h2{
+    font-size: 2rem;
+}
+
+.para p{
+    font-size: 1.1rem;
+    line-height: 2rem;
+    margin-top: 10px;
+}

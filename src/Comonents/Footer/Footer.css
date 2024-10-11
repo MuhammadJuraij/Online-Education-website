@@ -1,0 +1,47 @@
+.footer{
+    width: 100%;
+    background: #eeeaff;
+    padding: 50px  0px;
+    margin-top: auto;
+}
+
+
+.footer-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 3rem;
+    background: #eeeaff;
+}
+
+.footerbox{
+    width: 30%;
+}
+
+.footerbox p{
+    line-height: 1.2rem;
+    margin-top: 10px;
+}
+
+.footer-title{
+    line-height: 1.2rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-item li a{
+    line-height:28px;
+}
+.footer-item li a:hover{
+    color: var(--primary-color);
+}
+
+.logo-img{
+    margin-left: -25px;
+}
+
+.headd{
+    position: absolute;
+    margin-top: 23px;
+    margin-left:23px;
+}
